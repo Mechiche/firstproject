@@ -1,0 +1,132 @@
+main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.recherchez {
+    background-color: rgb(251,139,155);
+    color: white;
+    height: 40px;
+    padding: 25px 0;
+}
+
+span {
+    display: block;
+    text-align: center;
+    color: black;
+}
+span {
+    color: rgb(248,136,160);
+}
+i{
+    color: rgb(251,139,155);
+}
+ header nav .nav {
+    display: flex;
+    justify-content: space-around;
+}
+header nav a {
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+footer {
+    text-align: center;
+    margin-top: 60px;
+    clear: both;
+    background-color: rgb(33,62,78);
+    color: white;
+}
+.menu{
+    margin-top: 50px;
+}
+footer a {
+    text-decoration: none;
+    color: white;
+}
+footer img {
+    margin-top: 20px;
+    width: 50px;
+    height: 50px;
+}
+footer nav {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 25px;
+}
+.nuage {
+    color: black;
+}
+.image {
+    background-image: url(./img/background.jpg);
+    height: 250px;
+    text-align: center;
+    padding: 100px;
+    color: white;
+}
+.general  {
+    display: flex;
+    justify-content:  space-between;
+    text-align: center;
+}
+.general p{
+    text-align: initial;
+}
+h2 {
+
+    text-align: center;
+}
+.contain > h2, .contains > h2 {
+    padding: 20px;
+    border:1px dashed black;
+    border-bottom: none;
+}
+.contains {
+  
+    text-align: center;
+    margin-top: 30px;
+}
+.contain{
+  
+    text-align: center;
+    margin-top: 30px;
+}
+.global  {
+    display: flex;
+    justify-content:  space-between;
+    text-align: center;
+}
+.global p{
+    text-align: initial;
+}
+.general h2{
+    color: rgb(248,136,160);
+}
+.global h2{
+    color: rgb(248,136,160);
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+    
+    header nav .nav {
+        display: flex;
+       flex-direction: column;
+      
+    }
+    .global {
+        display: flex;
+        flex-direction: column;
+    }
+    .general  {
+        display: flex;
+        flex-direction: column;
+    }
+    footer nav {
+        display: flex;
+        flex-direction: column;
+    }
+    footer a {
+        padding-top: 15px;
+    }
+
+}

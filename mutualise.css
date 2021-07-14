@@ -1,0 +1,121 @@
+footer {
+    text-align: center;
+    margin-top: 60px;
+    clear: both;
+    background-color: rgb(33,62,78);
+    color: white;
+}
+footer a {
+    text-decoration: none;
+    color: white;
+}
+footer img {
+    margin-top: 20px;
+    width: 50px;
+    height: 50px;
+}
+footer nav {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 25px;
+}
+.cloud {
+    border:1px dashed black;
+    border-bottom: none;
+    text-align: center;
+}
+.general .starter {
+    border: 1px dashed black;
+    padding: 12px;
+}
+.general .evasion {
+    border: 1px dashed black;
+    padding: 12px;
+}
+.general .liberty {
+    border: 1px dashed black;
+    padding: 12px;
+}
+.general  {
+    display: flex;
+    justify-content:  space-between;
+}
+.taille{
+    width: 30%;
+}
+.main {
+    max-width: 80%;
+    margin: 0 auto;
+}
+.main .general h3 {
+    background-color: rgb(33,62,78);
+    color: white;
+    text-align: center;
+}
+.general li {
+    list-style: circle;
+}
+button {
+    background-color: rgb(251,139,155);
+    width: 100%;
+}
+
+header h2 {
+    background-color: rgb(251,139,155);
+    color: white;
+    height: 40px;
+    padding: 25px 0;
+}
+span {
+    display: block;
+    text-align: center;
+    color: black;
+}
+span {
+    color: rgb(248,136,160);
+}
+i{
+    color: rgb(251,139,155);
+}
+ header nav .nav {
+    display: flex;
+    justify-content: space-around;
+}
+header nav a {
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+.menu{
+    margin-top: 50px;
+}
+.general h3 {
+    padding: 10px;
+}
+.general button {
+padding: 10px;
+}
+.nuage {
+    color: black;
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+    
+    header nav .nav {
+        display: flex;
+       flex-direction: column;
+      
+    }
+    .general  {
+        display: flex;
+        flex-direction: column;
+    }
+    footer nav {
+        display: flex;
+        flex-direction: column;
+    }
+    footer a {
+        padding-top: 15px;
+    }
+
+}
